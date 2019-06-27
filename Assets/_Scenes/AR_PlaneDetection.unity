@@ -51,7 +51,7 @@ LightmapSettings:
     m_IndirectOutputScale: 1
     m_AlbedoBoost: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 0
   m_LightmapEditorSettings:
     serializedVersion: 10
@@ -146,7 +146,7 @@ Light:
   m_CookieSize: 10
   m_Shadows:
     m_Type: 2
-    m_Resolution: -1
+    m_Resolution: 3
     m_CustomResolution: -1
     m_Strength: 1
     m_Bias: 0.05
@@ -347,10 +347,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 886bec0ef0e364d0cae14f73d7f8346f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectToPlace: {fileID: 8575368681422339355, guid: 5651c644ea17f4ac0847854517639eba,
+  objectToPlace: {fileID: 4817195596535735753, guid: a865608e81d3b443f97208dce9596aa1,
     type: 3}
   placementIndicator: {fileID: 1654558678}
-  spawnSound: {fileID: 8300000, guid: 19169400c996f472f9b09a28f14e3d37, type: 3}
+  spawnSound: {fileID: 0}
 --- !u!4 &1529067121
 Transform:
   m_ObjectHideFlags: 0
@@ -438,7 +438,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.1
-  far clip plane: 20
+  far clip plane: 100
   field of view: 60
   orthographic: 0
   orthographic size: 5
